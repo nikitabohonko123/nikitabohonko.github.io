@@ -1,0 +1,132 @@
+.Text{
+    border-radius: 20px;
+    background-color: rgb(56, 56, 56);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+header{   
+    background-image: url(images/фон.jpg); 
+    background-size: 100%;
+    width: 100%;
+    height: 890px;
+}
+#s{
+    font-size: 25px;
+    color: rgb(184, 176, 176);
+}
+#r{
+    font-size: 20px;
+    color: rgb(184, 176, 176);
+}
+#a{
+    border-radius: 20px;
+    height: 60px;
+    width: 170px;
+}
+#J{
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+}
+#c{
+    display: flex;
+    justify-content: center;
+}
+#z{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 100px;
+}
+#Q{
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+}
+#x{
+    border-radius: 20px;
+}
+#c{
+    border-radius: 20px;
+}
+#a{
+    font-size: 27px;
+    border-radius: 20px;
+    color: black;
+}
+.Foter{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    color: white;
+}
+#logo{
+    border-radius: 20px;
+    height: 100px;
+}
+#tx{
+    font-size: 23px;
+}
+.img{
+    background-image:url(images/фон\ футера.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 610px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#f{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+#p{
+    font-size: 44px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.PH{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 1080px){
+    header{   
+        background-image: url(images/фон.jpg); 
+        width: 100%;
+        height: 700px;
+    }
+    #z{
+        display: flex;
+        justify-content: center;
+        font-size: 34px;
+        margin-right: 100px;
+    }
+    #tx{
+        font-size: 31px;
+    }
+    #logo{
+        border-radius: 20px;
+        height: 120px;
+    }
+    .img{
+        background-image:url(images/фон\ футера.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #p{
+        font-size: 31px;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #f{
+        font-size: 33px;
+        display: flex;
+        justify-content: center;
+    }
+    }
